@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<nav id="nav">
+
+    <ul>
+<img id="logo" height="18px" width="30px" src="./OLX-Logo.png" alt="">
+<i id="car" class="fa-solid fa-car-rear"></i><span id="moto">MOTORS</span>
+<i id="buil" class="fa-solid fa-hotel"></i><span id="pro">PROPERTY</span>
+</ul>
+<ul>
+    <img id="bl" height="40px" width="65px" src="./olx-logo-vector.png" alt="">
+    <select name="" id="country">
+      <option value="Pakistan">Pakistan</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Pehshawer">Pehshawer</option>
+      <option value="KPK">KPK</option>
+      <option value="Lahore">Lahore</option>
+    </select>
+    <!-- <i id="search" class="fa-solid fa-magnifying-glass"></i> -->
+    <input type="text" id="searching" placeholder="   Find Cars, Mobile Phones and more.."><button id="se" type="submit"><i class="fa fa-search"></i></button>
+    <a id="login" href="">Login</a>
+    <span id="ful">
+<img id="plus" width="20px" height="18px" src="./plus.png" alt=""><span id="sell">SELL</span>
+</span>
+</ul>
+</nav>
+<br><br><br><br><br>
+<div id="list">
+<ul id="cat">
+  <li>
+    <select name="categories" id="categories">
+      <option value="All categories">All categories</option>
+      <option value="cars">Cars</option>
+      <option value="mobiles">Mobiles</option>
+      <option value="truck">Truck</option>
+      <option value="animals">Animals</option>
+      <option value="shoes">Shoes</option>
+      <option value="tables">tables</option>
+      <option value="books">Books</option>
+      <option value="computers">Computers</option>
+      <option value="lights">Lights</option>
+      <option value="sofas">Sofas</option>
+    </select>
+  </li>
+  <li>Mobile Phones</li>
+  <li>Cars</li>
+  <li>Motercycles</li>
+  <li>Houses</li>
+  <li>TV-Video-Audio</li>
+  <li>Tablets</li>
+  <li>Land & Plots</li>
+</ul>
+</div>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./add1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./add1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./add1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button> -->
+</div>
+
+<br>
+<div class="container">
+<img height="110px" width="900px" src="./markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="">
+</div>
+<br><br><br>
+<div class="container-fluid">
+  <h3 style="color: rgba(0, 0, 0, 0.815);">Fresh recommendations</h3>
+  <br>
+  <div class="row">
+    <div class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img src="https://images.olx.com.pk/thumbnails/364607703-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 1,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/355537652-240x180.webp" class="card-img-top" alt="...">
+    <div  class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,350</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364612642-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 9,850</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364612640-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 7,890</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<br>
+    <div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364612618-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,850</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/363571326-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/361479069-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 4,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364612450-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 3,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<br>
+    <div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364612454-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,258</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613497-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 1,850</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613501-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 1,270</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613527-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 4,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<br>
+    <div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/355285069-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 2,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613541-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 2,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/362494031-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613526-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 6,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<br>
+    <div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/363700299-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 1,550</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364613553-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 3,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/355173096-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 2,250</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 20px;" class="col-lg-3">
+  <div class="card" style="width: 15rem;">
+    <img height="250px" src="https://images.olx.com.pk/thumbnails/364614270-240x180.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-title">2 piece printed lawn suit<i style="float: right;font-size: 18px;" class="fa-regular fa-heart"></i></h6>
+      <h4 style="font-weight: bold;" class="card-text">Rs 1,850</h4>
+      <br>
+      <p style="font-size: 13px;color: rgba(0, 0, 0, 0.767);">Bilal Chowk,Multan . 1 minute ago</p>
+    </div>
+  </div>
+</div>
+<br>
+</div>
+</div>
+<br><br><br>
+<center>
+  <button id="load">Load more</button>
+</center>
+<br><br><br>
+
+<div class="container-fluid">
+ 
+    <div class="row">
+        <div class="col-3">
+            <img style="width: 200px; height: 400px;margin-left: 90px;" src="./home-mobile.png" alt="">
+        </div>
+        <div style="margin-left: 130px;" class="col-4">
+    <h4 style="margin-top: 100px;">Download Kam Kaj App</h4>
+    <p style="font-size: medium;">Make your life easier by downloading Kam Kaj app.</p>
+    <img src="./zuanir.png" alt=""><img style="margin-left: 10px;" src="./home-app-store.png" alt="">
+        </div>
+    <div class="col-2">
+    <img style="margin-top: 40px;" width="300px" src="./khan.png" alt="">
+    </div>
+    
+    </div>
+   
+</div>
+
+<div id="fop" class="container-fluid">
+  <br>
+<div class="row">
+<div class="col-lg-2 text-center">
+
+  <li><p style="font-size: 11px;color: #002f34;font-weight: 800;">POPULAR CATEGORIES</p></li>
+  <li><p>Cars</p></li>
+  <li><p>flat for Rent</p></li>
+  <li><p>Mobile phones</p></li>
+  <li><p>Job</p></li>
+
+</div>
+<div class="col-lg-2">
+
+</div>
+<div class="col-lg-2">
+
+</div>
+<div class="col-lg-2">
+
+</div>
+<div class="col-lg-4">
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
